@@ -1,0 +1,27 @@
+{
+  "name": "react-native-text-input-emoji-controlled",
+  "version": "1.0.0",
+  "description": "This module created to provided emoji controlled, as emoji is of variable length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msinghus96/react-native-text-input-emoji-controlled.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "emoji",
+    "controlled",
+    "textinput",
+    "inputtext"
+  ],
+  "author": "Manbir Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msinghus96/react-native-text-input-emoji-controlled/issues"
+  },
+  "homepage": "https://github.com/msinghus96/react-native-text-input-emoji-controlled#readme"
+}
