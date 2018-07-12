@@ -1,6 +1,6 @@
 {
   "name": "react-native-text-input-emoji-controlled",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module created to provided emoji controlled, as emoji is of variable length",
   "main": "index.js",
   "scripts": {
