@@ -1,7 +1,7 @@
 {
   "name": "react-native-text-input-emoji-controlled",
-  "version": "1.0.5",
-  "description": "This module created to provided emoji controlled, as emoji is of variable length",
+  "version": "1.0.6",
+  "description": "maxlength not working as per your requirement because of Emoji in React Native?? This module might be solution to your problem.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,10 @@
     "emoji",
     "controlled",
     "textinput",
-    "inputtext"
+    "inputtext",
+    "controller",
+    "react native",
+    "maxlength"
   ],
   "author": "Manbir Singh",
   "license": "ISC",
