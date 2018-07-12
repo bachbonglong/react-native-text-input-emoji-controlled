@@ -7,11 +7,11 @@ export default class TextInputCustom extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            count: this.props.maxLength, //shows the count in text input
+            count: this.props.maxLength ? this.props.maxLength : 0, //shows the count in text input
             maxLength: MAX_EMOJI_SIZE, //Maximum length of TextInput character is
             text: "",   //Current text which we process i.e., slicing ,
         }
-        this.maxTextLength = this.props.maxLength
+        this.maxTextLength = this.props.maxLength ? this.props.maxLength : 0
         this.currentLength = 0
     }
 
@@ -111,7 +111,7 @@ export default class TextInputCustom extends Component {
      */
     getTextBeforeUpdate({ nativeEvent: { text } }) {
         let textToBeUpdateAfterProcessing = text, maxLength = 0
-        if (this.props.showCount) {
+        if (this.props.maxLength !== undefined) {
             if (text === '') {//if whole text is clear by user reset it to default state
                 this.currentLength = 0
                 maxLength = MAX_EMOJI_SIZE
@@ -191,7 +191,7 @@ export default class TextInputCustom extends Component {
     render() {
         return (
             <View
-                style={[style.underline, this.props.style ? this.props.style : {}]}
+                style={[style.textInputContainer, this.props.style ? this.props.style : {}]}
             >
                 <TextInput
                     onChange={this.getTextBeforeUpdate.bind(this)}

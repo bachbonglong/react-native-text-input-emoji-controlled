@@ -18,6 +18,9 @@ const style = StyleSheet.create({
     },
     validationText:{
         color:'red',
+    },
+    textInputContainer:{
+        width:'100%'
     }
 })
 
